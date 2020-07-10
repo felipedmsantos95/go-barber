@@ -1,4 +1,3 @@
-# Readme do GoBarber
 
 ![img/gobarber.png](img/gobarber.png)
 
