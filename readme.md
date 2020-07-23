@@ -1,3 +1,4 @@
+# GoBarber
 
 ![img/gobarber.png](img/gobarber.png)
 
@@ -20,14 +21,14 @@ Para executar backend, frontend e mobile é necessário ter os seguintes requisi
 
 ## Executando o projeto
 
-### Clonando o projeto:
+### Clonando o projeto
 
 ```bash
 $ git clone https://github.com/felipedmsantos95/go-barber
 $ cd go-barber
 ```
 
-### Iniciando Backend:
+### Iniciando Backend
 
 Enquanto a aplicação está em desenvolvimento
 
@@ -36,10 +37,10 @@ $ cd backend
 $ yarn dev:server
 ```
 
-### Iniciando Frontend:
+### Iniciando Frontend
 
 Em breve.
 
-### Iniciando App:
+### Iniciando App
 
 Em breve.
