@@ -8,9 +8,11 @@ Consiste em uma plataforma para gerenciamento de atendimento em uma barbearia. O
 
 ## Tecnologias utilizadas
 
-- Node.js - Backend
-- React.js - Frontend
-- React-Native  - App mobile
+- Node.js para back-end
+- React.js para front-end
+- React-Native para mobile
+- Banco de dados PostgreSQL
+
 
 ## Requisitos para execução dos módulos
 
@@ -18,6 +20,9 @@ Para executar backend, frontend e mobile é necessário ter os seguintes requisi
 
 - Node 12.x ou superior
 - Yarn 1.21 ou superior
+- PostgreSQL 11.x ou superior
+- Docker 19.x ou superior (opcional)
+
 
 ## Executando o projeto
 
@@ -30,17 +35,18 @@ $ cd go-barber
 
 ### Iniciando Backend
 
-1. Para rodar a API pela primeira vez, acessar o diretório ./backend/ e executar o comando abaixo para instalar as dependências:
+1. Para rodar a API pela primeira vez acessar o diretório ./backend/ e executar o comando abaixo para instalar as dependências:
 
 ```bash
 $ cd backend
 $ yarn
 ```
 
-2. Uma vez instaladas as dependências, pelo comando abaixo é possível executar o backend da aplicação, por padrão ele estará disponível para requisições através da porta 3333 no endereço http://localhost:3333/:
+2. Uma vez instaladas as dependências,  se certificando que o postgreSQL esteja sendo executado, pelo comando abaixo é possível executar o backend da aplicação, por padrão ele estará disponível para requisições através da porta 3333 no endereço http://localhost:3333/:
 
-		$ yarn dev:server
-
+```bash
+$ yarn dev:server
+```
 
 ### Iniciando Frontend
 
@@ -55,11 +61,15 @@ $ yarn
 
 2. Uma vez instaladas as dependências, pelo comando abaixo é possível executar o frontend da aplicação:
 
-		$ yarn start
+```bash
+$ yarn start
+```
 
 3. Feito isso, através de um navegador de internet (preferencialmente o Chrome ou o Firefox), através do endereço abaixo, será possível interagir com a aplicação desenvolvida.
 
-		http://localhost:3000/
+```bash
+$ http://localhost:3000/
+```
 
 ### Iniciando Aplicativo Mobile
 
