@@ -30,17 +30,37 @@ $ cd go-barber
 
 ### Iniciando Backend
 
-Enquanto a aplicação está em desenvolvimento
+1. Para rodar a API pela primeira vez, acessar o diretório ./backend/ e executar o comando abaixo para instalar as dependências:
 
 ```bash
 $ cd backend
-$ yarn dev:server
+$ yarn
 ```
+
+2. Uma vez instaladas as dependências, pelo comando abaixo é possível executar o backend da aplicação, por padrão ele estará disponível para requisições através da porta 3333 no endereço http://localhost:3333/:
+
+		$ yarn dev:server
+
 
 ### Iniciando Frontend
 
-Em breve.
+Com o backend sendo executado, pode-se executar os passos abaixo para rodar o frontend da aplicação localmente.
 
-### Iniciando App
+1. Acessar o diretório ./frontend/ e executar o comando abaixo para instalar as dependências:
+
+```bash
+$ cd frontend
+$ yarn
+```
+
+2. Uma vez instaladas as dependências, pelo comando abaixo é possível executar o frontend da aplicação:
+
+		$ yarn start
+
+3. Feito isso, através de um navegador de internet (preferencialmente o Chrome ou o Firefox), através do endereço abaixo, será possível interagir com a aplicação desenvolvida.
+
+		http://localhost:3000/
+
+### Iniciando Aplicativo Mobile
 
 Em breve.
