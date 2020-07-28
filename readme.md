@@ -73,4 +73,23 @@ $ http://localhost:3000/
 
 ### Iniciando Aplicativo Mobile
 
-Em breve.
+Com o backend sendo executado, pode-se executar os passos abaixo para executar e instalar o aplicativo mobile.
+
+1. Acessar o diretório ./mobile/ e executar o comando abaixo para instalar as dependências:
+
+```bash
+$ cd mobile
+$ yarn
+```
+
+2. Com um emulador Android ou iOS rodando ou com um dispositivo mobile conectado via USB, com o modo de depuração ligado, executar o comando para instalar o aplicativo em seu smartphone:
+
+```bash
+$ yarn android
+```
+Para dispositivo Android
+
+```bash
+$ yarn ios
+```
+Para dispositivo iOS
