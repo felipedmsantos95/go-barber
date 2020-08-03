@@ -82,7 +82,7 @@ $ cd mobile
 $ yarn
 ```
 
-2. Com um emulador Android ou iOS rodando ou com um dispositivo mobile conectado via USB, com o modo de depuração ligado, executar o comando para instalar o aplicativo em seu smartphone:
+2. Com um emulador Android ou iOS rodando ou com um dispositivo mobile conectado via USB, com o modo de depuração ligado, executar os comandos para instalar o aplicativo em seu smartphone:
 
 Para dispositivo Android
 ```bash
@@ -91,6 +91,9 @@ $ yarn android
 
 Para dispositivo iOS
 ```bash
+$ cd ios
+$ pod install
+$ cd ..
 $ yarn ios
 ```
 
